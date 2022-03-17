@@ -1,0 +1,29 @@
+{
+  "name": "expo-eas-app-extension-test",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "babel-plugin-transform-react-jsx-source": "6.22.0",
+    "babel-preset-expo": "9.0.2"
+  },
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android -d",
+    "ios": "expo run:ios -d",
+    "yarn-install": "yarn install --network-timeout 1000000"
+  },
+  "dependencies": {
+    "expo": "^44.0.0",
+    "expo-asset": "~8.4.6",
+    "expo-constants": "~13.0.1",
+    "expo-dev-client": "~0.8.4",
+    "expo-linking": "~3.0.0",
+    "expo-splash-screen": "~0.14.1",
+    "expo-status-bar": "~1.2.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-web": "0.17.1"
+  }
+}

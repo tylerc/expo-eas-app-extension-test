@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "ExpoEasAppExtensionTest",
+    "description": "Testing an EAS build issue.",
+    "slug": "expo-eas-app-extension-test",
+    "primaryColor": "#4CB8C4",
+    "version": "1.7.4",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#4CB8C4"
+    },
+    "ios": {
+      "bundleIdentifier": "com.tylerchurch.expoeasappextensiontest",
+      "buildNumber": "1.0.0",
+      "associatedDomains": [],
+      "userInterfaceStyle": "automatic",
+      "infoPlist": {
+        "NSUserActivityTypes": [
+          "ClientAddIntent",
+          "EventAddIntent",
+          "ExpenseAddIntent",
+          "InvoiceAddIntent",
+          "LeadAddIntent",
+          "MileageAddIntent",
+          "ProductAddIntent",
+          "ProjectAddIntent",
+          "TaskAddIntent",
+          "TimeAddIntent",
+          "VendorAddIntent",
+          "com.tylerchurch.expoeasappextensiontest.ExpoEasAppExtensionTestIntents"
+        ]
+      },
+      "isTabletOnly": false,
+      "supportsTablet": true
+    },
+    "scheme": "expo-eas-app-extension-test",
+    "plugins": [
+      "./app-extension-test-expo-mod-ios-build-properties-add.plugin.js",
+      "./app-extension-test-expo-mod-ios-update-app-delegate.plugin.js",
+      "./app-extension-test-expo-mod-ios-entitlements-update.plugin.js",
+      "./app-extension-test-expo-mod-ios-info-plist-update.plugin.js",
+      "./app-extension-test-expo-mod-ios-siri-shortcuts-setup.plugin.js"
+    ],
+    "android": {
+      "package": "com.tylerchurch.expoeasappextensiontest"
+    }
+  }
+}
